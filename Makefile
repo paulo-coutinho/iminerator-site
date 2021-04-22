@@ -44,7 +44,7 @@ setup:
 
 cloudflare-clear-cache:
 	curl -X DELETE \
-      https://api.cloudflare.com/client/v4/zones/3c756412574be67ee23afb39228195fa/purge_cache \
+      https://api.cloudflare.com/client/v4/zones/81ee2c4b8065ed7468a2938b3eff99b5/purge_cache \
       -H 'Authorization: Bearer ${PRS_CLOUDFLARE_TOKEN}' \
       -H 'Content-Type: application/json' \
       -d '{ "purge_everything": true }'
